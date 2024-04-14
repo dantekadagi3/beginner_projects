@@ -8,6 +8,7 @@ body{
     background: url("beach.jpg");
     background-size: cover;
     font-family: sans-serif;
+    overflow:hidden;
 
 }
 h2{
