@@ -86,3 +86,64 @@ font-size: 50px;
 padding-top: 5px;
 color:#EDC061;
 }
+
+/*menu section*/
+.section2{
+    background-image: url(images/sec2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card {
+    width: 200px;
+    height: auto; /* Maintains the aspect ratio */
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    align-items: center;
+  }
+.section2 .card img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.coffee-menu {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.dessert-menu{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu h1{
+    text-align: center;
+    color:#6F4E37 ;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+.menu{
+    height: fit-content;
+    width: fit-content;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin-top: 20px;
+    background-color: #fff;
+
+}
+.register{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.mail--input input{
+    height:50px;
+    width:300px;
+    background-color: #f9f3f3;
+    border-radius: 30px;
+    border: 2px solid #1a1a1a;
+}
