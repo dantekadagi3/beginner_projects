@@ -10,3 +10,4 @@ console.log(result);
 var n=Math.random()*6 +1;
 n=Math.floor(n);
 console.log(n);
+

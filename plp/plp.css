@@ -1,0 +1,94 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f2f2f2;
+}
+
+/* Header styles */
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+/* Section styles */
+.section-content {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.section-content h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.section-content p {
+    font-size: 1.1em;
+    color: #555;
+}
+
+/* Skills list */
+.skills-list {
+    list-style: none;
+    padding: 0;
+}
+
+.skills-list li {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 8px 15px;
+    margin-bottom: 5px;
+}
+
+/* Contact list */
+.contact-list {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-list li {
+    margin-bottom: 10px;
+    font-size: 1.1em;
+    color: #333;
+}
+
+.contact-list li a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.contact-list li a:hover {
+    text-decoration: underline;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .section-content {
+        margin: 10px;
+    }
+}
+
+@media (max-width: 576px) {
+    .section-content {
+        padding: 15px;
+        margin: 10px 5px;
+    }
+}
